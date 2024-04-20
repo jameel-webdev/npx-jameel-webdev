@@ -1,0 +1,44 @@
+{
+  "name": "jameel-webdev",
+  "version": "1.0.12",
+  "description": "Jameel's introduction on terminal.",
+  "exports": "./index.js",
+  "bin": {
+    "jameel-webdev": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node bin/index.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "business",
+    "npx-card",
+    "npm card",
+    "jameel-webdev",
+    "npx jameel-webdev",
+    "npx business card"
+  ],
+  "author": "jameel-webdev",
+  "license": "MIT",
+  "files": [
+    "bin/index.js"
+  ],
+  "dependencies": {
+    "axios": "^1.6.8",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "cli-spinners": "^2.9.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.19",
+    "open": "^10.1.0",
+    "ora": "^8.0.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
