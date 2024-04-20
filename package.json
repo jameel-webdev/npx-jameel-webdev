@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/jameel-webdev/npx-jameel-webdev"
   },
   "keywords": [
     "business",
