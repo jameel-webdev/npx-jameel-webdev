@@ -68,7 +68,7 @@ const questions = [
           loader.start();
           axios({
             method: "get",
-            url: "https://rb.gy/12wxy9",
+            url: "https://rb.gy/zlg03a",
             responseType: "stream",
           })
             .then(function (response) {
