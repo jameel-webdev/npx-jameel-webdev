@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from "fs";
 import os from "os";
 import ora from "ora";
@@ -71,7 +73,7 @@ const questions = [
           })
             .then(function (response) {
               const writer = fs.createWriteStream(
-                path.join(desktopDir, "jameelwebdev-resume.pdf")
+                path.join(desktopDir, "JameelAhmed-Resume.pdf")
               );
 
               response.data.pipe(writer);
