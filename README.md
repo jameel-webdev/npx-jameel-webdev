@@ -2,7 +2,7 @@
 
 ## Preview
 
-![npxjameelwebdev]()
+![npx-jameel-webdev](https://github.com/jameel-webdev/npx-jameel-webdev/assets/126319130/3afcf7f9-5aaa-4ff4-baad-2ed825bfb8a4)
 
 ## Create your personalized NPX introduction card
 
