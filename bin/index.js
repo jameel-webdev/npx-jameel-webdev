@@ -117,6 +117,7 @@ const data = {
   labelLinkedIn: chalk.bgHex("#0b66c2").black.bold("LinkedIn  "),
   labelDev: chalk.bgHex("#A9A9A9").black.bold("Dev       "),
   labelWeb: chalk.bgHex("#4CAF50").black.bold("Webfolio  "),
+  labelFolio: chalk.bgHex("#FEE4CC").black.bold("Portfolio "),
 
   // LABEL DESCRIPTION
   github: chalk.gray("https://github.com/") + chalk.green("jameel-webdev"),
@@ -124,6 +125,7 @@ const data = {
   web: chalk.yellowBright.underline("https://www.polywork.com/jameel_webdev"),
   linkedin:
     chalk.gray("https://linkedin.com/in/") + chalk.blueBright("jameel-webdev"),
+  portfolio: chalk.green("https://jameel-webdev.vercel.app/"),
   intro:
     chalk.white.bold(
       "I am Jameel Ahmed, a Full Stack Developer known by the handle "
@@ -141,6 +143,7 @@ const devto = `${data.labelDev}  ${data.dev}`;
 const github = `${data.labelGitHub}  ${data.github}`;
 const onlinePortfolio = `${data.labelWeb}  ${data.web}`;
 const linkedin = `${data.labelLinkedIn}  ${data.linkedin}`;
+const portfolio = `${data.labelFolio}  ${data.portfolio}`;
 
 // Concatenating introduction, tech platform links, and online portfolio link
 const output =
@@ -153,7 +156,9 @@ const output =
   newline +
   linkedin +
   newline +
-  onlinePortfolio;
+  onlinePortfolio +
+  newline +
+  portfolio;
 
 // Display the formatted output in a box and prompt the user with the defined questions then execute the action based on the user's choice
 console.log(chalk.white(boxen(output, options)));
