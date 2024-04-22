@@ -1,6 +1,6 @@
 {
   "name": "jameel-webdev",
-  "version": "1.0.12",
+  "version": "1.1.1",
   "description": "Jameel's introduction on terminal.",
   "exports": "./index.js",
   "bin": {
